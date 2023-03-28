@@ -1,9 +1,10 @@
-import './App.css'
+import './App.scss'
 import Header from './Components/Header.js'
 import About from './Components/About.js'
 import Services from './Components/Services'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import Gallery from './Components/Gallery'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <About />
       <Services />
+      <Gallery />
       <Contact />
       <Footer />
     </div>

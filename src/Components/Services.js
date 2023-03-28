@@ -1,4 +1,8 @@
 import React from 'react'
+import washAndFold from '../images/washandfold.jpg'
+import fold from '../images/fold.jpeg'
+import mini from '../images/min.jpg'
+import sheets from '../images/sheets.jpg'
 
 export default function Services() {
   return (
@@ -8,6 +12,7 @@ export default function Services() {
       <div className='services__option'>
         <h4>Pay as you go</h4>
         <div>
+            <img src={washAndFold} alt="washing machine"></img>
             <h5>Wash and fold</h5>
             <p>$30.000 Minimum</p>
             <ul>
@@ -16,6 +21,7 @@ export default function Services() {
             <p className='text--teal'></p>
         </div>
         <div>
+            <img src={fold} alt="lots of laundry"></img>
             <h5>Fold Only</h5>
             <p>$25.00 Minimum</p>
             <ul>
@@ -29,6 +35,7 @@ export default function Services() {
       <div className='services__option'>
         <h4>Subscriptions</h4>
         <div>
+            <img src={mini} alt="house"></img>
             <h5>Mini Blast</h5>
             <ul>
                 <li>Includes 30 lbs/ each additional lb $1.00 </li>
@@ -39,6 +46,7 @@ export default function Services() {
             <p className='text--teal'></p>
         </div>
         <div>
+            <img src={sheets} alt="blue folded sheets"></img>
             <h5>Main Blast</h5>
             <ul>
                 <li>Includes 60 lbs/ each additional lb $1.00</li>
@@ -50,7 +58,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className='services__option'>
+      <div className='services__option services__menu'>
         <h4>Blast on / Add on services</h4>
         <table>
           <tr>
