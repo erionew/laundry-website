@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <div className='services--container'>
+    <section className='services--container'>
       <h3>Our Services</h3>
 
       <div className='services__option'>
@@ -52,21 +52,61 @@ export default function Services() {
 
       <div className='services__option'>
         <h4>Blast on / Add on services</h4>
-        <p>Expedited (must be requested by 11:00 am)<span className='services__price'>$25.00</span></p>
-        <p>Special Detergent<span className='services__price'>$2.00</span></p>
-        <p>Organization Bins<span className='services__price'><em>Call for pricing</em></span></p>
+        <table>
+          <tr>
+            <td>Expedited (must be requested by 11:00 am)</td>
+            <td>$25.00</td>
+          </tr>
+          <tr>
+            <td>Special Detergent</td>
+            <td>$2.00</td>
+          </tr>
+          <tr>
+            <td>Organization Bins</td>
+            <td>Call for pricing</td>
+          </tr>
+          <tr>
+            <td>Organization Bins</td>
+            <td>Call for pricing</td>
+          </tr>
+        </table>
         <p>Replacement cloth bags(for clothing to be ironed)</p>
-        <p className='text-indented'>Small<span className='services__price'>$2.50</span></p>
-        <p className='text-indented'>Large<span className='services__price'>$5.00</span></p>
+        <table className='table--indented'>
+          <tr>
+            <td>Small</td>
+            <td>$2.50</td>
+          </tr>
+          <tr>
+            <td>Large</td>
+            <td>$5.00</td>
+          </tr>
+        </table>
         <p>Ironing</p>
-        <p className='text-indented'>Collared / Polo Shirts<span className='services__price'>$2.25</span></p>
-        <p className='text-indented'>Long Sleeve Shirts<span className='services__price'>$3.00</span></p>
-        <p className='text-indented'>Short Sleeve Shirt<span className='services__price'>$1.00</span></p>
-        <p className='text-indented'>Pants<span className='services__price'>$2.50</span></p>
-        <p className='text-indented'>Skirts<span className='services__price'>$3.50</span></p>
+        <table className='table--indented'>
+          <tr>
+            <td>Collared / Polo Shirts</td>
+            <td>$2.25</td>
+          </tr>
+          <tr>
+            <td>Long Sleeve Shirt</td>
+            <td>$3.00</td>
+          </tr>
+          <tr>
+            <td>Short Sleeve Shirt</td>
+            <td>$1.00</td>
+          </tr>
+          <tr>
+            <td>Pants</td>
+            <td>$2.50</td>
+          </tr>
+          <tr>
+            <td>Skirts</td>
+            <td>$3.50</td>
+          </tr>
+        </table>
       </div>
       
 
-    </div>
+    </section>
   )
 }
