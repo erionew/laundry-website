@@ -1,6 +1,45 @@
+$color-teal: #41a5b0;
+$color-dark-teal: #2c7078;
+$color-off-white: #d1e3e9;
+$font-montserrat: 'Montserrat', sans-serif;
+
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font-montserrat;
 }
 
+body{
+  font-size: 16px;
+}
+
+p{
+  line-height: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  margin: 0 10%;
+}
+
+.logo{
+  height: 50px;
+}
+
+.flex{
+  display: flex;
+}
+
+.btn--outline{
+  padding: 0.3em 0.65em;
+  background-color: transparent;
+  border-radius: 5px;
+}

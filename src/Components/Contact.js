@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='contact--container'>
+    <section className='contact--container' id='section--contact'>
         <div className='contact__info--container'>
             <h4>Better yet see us in person!</h4>
             <p>We would love to make you apart of the Sud-Stainable Laundry Co. family so feel free to call us during normal business hours for more information.</p>
@@ -50,6 +50,6 @@ export default function Contact() {
             </form>
         </div>
       
-    </div>
+    </section>
   )
 }

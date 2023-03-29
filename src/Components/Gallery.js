@@ -6,6 +6,7 @@ import drawerOrganizer from '../images/drawerorganizer.jpeg'
 import foldedClothes from '../images/foldedclothes.jpg'
 import towels from '../images/towels.jpg'
 import detergents from '../images/detergents.jpg'
+import foldedShirts from '../images/foldedshirts.jpg'
 import illustration from '../images/illustration.PNG'
 
 export default function Gallery() {
@@ -20,6 +21,9 @@ export default function Gallery() {
         </div>
         <div>
             <img src={towels}></img>
+        </div>
+        <div>
+            <img src={foldedShirts}></img>
         </div>
         <div>
             <img src={detergents}></img>
