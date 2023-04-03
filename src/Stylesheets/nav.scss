@@ -11,9 +11,11 @@
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c7178c4;
-    backdrop-filter: blur(8px);
+    background-color: App.$color-dark-teal;
     color: App.$color-off-white;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
 }
 
 

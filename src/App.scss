@@ -1,5 +1,5 @@
-$color-teal: #41a5b0;
-$color-dark-teal: #2c7078;
+$color-teal: #69A2B5;
+$color-dark-teal: #196a85;
 $color-off-white: #d1e3e9;
 $font-montserrat: 'Montserrat', sans-serif;
 
@@ -30,6 +30,10 @@ section{
   margin: 0 10%;
 }
 
+.text--teal{
+  color: $color-dark-teal;
+}
+
 .logo{
   height: 50px;
 }
@@ -38,8 +42,21 @@ section{
   display: flex;
 }
 
-.btn--outline{
-  padding: 0.3em 0.65em;
+a{
+  cursor: pointer;
+}
+
+.a--outline{
+  padding: 0.5em 0.75em;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 3px;
+  border: 1px solid #6b6b6b;
+}
+
+.a--teal{
+  padding: 0.5em 0.75em;
+  color: #ffffff;
+  background-color: $color-teal;
+  border-radius: 3px;
+  border: none;;
 }
