@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section className='contact--container' id='section--contact'>
         <div className='contact__info--container'>
-            <h4>Better yet see us in person!</h4>
+            <h3>Better yet, see us in person!</h3>
             <p>We would love to make you apart of the Sud-Stainable Laundry Co. family so feel free to call us during normal business hours for more information.</p>
             <p><em>Sud-Stainable Laundry Co.</em></p>
             <p>Hours</p>

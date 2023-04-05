@@ -16,18 +16,30 @@ html{
 
 body{
   font-size: 16px;
+
 }
 
 p{
+  font-weight: 400;
   line-height: 30px;
 }
 
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 
+h3{
+  margin: 2em 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
 section{
-  margin: 0 10%;
+  margin: 10%;
+
 }
 
 .text--teal{
@@ -40,10 +52,6 @@ section{
 
 .flex{
   display: flex;
-}
-
-a{
-  cursor: pointer;
 }
 
 .a--outline{
